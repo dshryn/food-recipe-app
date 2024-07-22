@@ -18,7 +18,7 @@ An appealing Flutter application for food enthusiasts. It showcases a variety of
 ![Home Screen](‪assets/images/home_screen.jpg)
 
 #### Category Screen
-![Category Screen](‪D:\category_details_screen.jpg)
+![Category Screen](‪assets/images/category_details_screen.jpg)
 
 #### Meal Info Screen
 ![Meal Info Screen](‪assets/images/meal_screen.jpg)
@@ -45,7 +45,7 @@ Named routes are used for navigation within the app, managed by Navigator.pushNa
 Custom Widgets: The app consists of numerous custom widgets to break down the UI into reusable components, such as CategoryItem, MealItem, MealDetail, and MainDrawer.
 SnackBars: SnackBars are implemented for providing feedback to users when they add or remove meals from their favorites list.
 Drawer: A side drawer (MainDrawer) provides access to the filter settings, allowing users to customize their meal preferences.
-Hero Animations: The app uses the Hero widget for smooth transitions between the recipe list and detailed view, providing a visually appealing experience.
+Hero widget Animations: The app uses the Hero widget for smooth transitions between the recipe list and detailed view, providing a visually appealing experience.
 Data Handling
 Recipes and categories are defined in model classes and managed through a mock data source. Future improvements could involve integrating a backend service for dynamic content.
 
@@ -59,8 +59,8 @@ To run this project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/dshryn/expense_tracker.git
-    cd expense_tracker
+    git clone https://github.com/dshryn/food_recipe_app.git
+    cd food_recipe_app
     ```
 
 2. **Install Dependencies**:
