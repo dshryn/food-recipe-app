@@ -14,23 +14,19 @@ An appealing Flutter application for food enthusiasts. It showcases a variety of
 
 ### Screenshots
 
-#### Home Screen
-![Home Screen](‪assets/images/home_screen.jpg)
 
-#### Category Screen
+### Category Screen
 ![Category Screen](assets/images/category_details_screen.jpg)
 
-#### Meal Info Screen
+### Meal Info Screen
 ![Meal Info Screen](assets/images/meal_screen.jpg)
 
-#### Side Drawer
+### Side Drawer
 ![Side Drawer](assets/images/side_drawer.jpg)
 
-#### Filters Screen
+### Filters Screen
 ![Filters Screen](assets/images/filters_screen.jpg)
 
-#### Favorites Screen
-![Favorites Screen](‪assets/images/favorites_screen.jpg)
 
 
 ### Technical Overview
