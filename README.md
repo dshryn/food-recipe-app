@@ -15,25 +15,25 @@ An appealing Flutter application for food enthusiasts. It showcases a variety of
 ### Screenshots
 
 #### Home Screen
-![Home Screen](‪D:\Screenshot_20240722_160454.jpg)
+![Home Screen](‪assets/images/home_screen.jpg)
 
 #### Category Screen
-![Category Screen](‪D:\Screenshot_20240722_160507.jpg)
+![Category Screen](‪D:\category_detail_screen.jpg)
 
 #### Meal Info Screen
-![Meal Info Screen](‪D:\Screenshot_20240722_160517.jpg)
+![Meal Info Screen](‪assets/images/meal_screen.jpg)
 
 #### Side Drawer
-![Side Drawer](‪D:\Screenshot_20240722_160540.jpg)
+![Side Drawer](assets/images/side_drawer.jpg)
 
 #### Filters Screen
-![Filters Screen](‪D:\Screenshot_20240722_160552.jpg)
+![Filters Screen](assets/images/filters_screen.jpg)
 
 #### Favorites Screen
-![Favorites Screen](‪D:\Screenshot_20240722_160532.jpg)
+![Favorites Screen](‪assets/images/favorites_screen.jpg)
 
 
-###Technical Overview
+### Technical Overview
 
 #### State Management
 The app utilizes Provider for state management, ensuring a reactive and maintainable codebase. State changes trigger UI updates efficiently, providing a smooth user experience.
@@ -49,7 +49,7 @@ Hero Animations: The app uses the Hero widget for smooth transitions between the
 Data Handling
 Recipes and categories are defined in model classes and managed through a mock data source. Future improvements could involve integrating a backend service for dynamic content.
 
-####Theming
+#### Theming
 A consistent dark theme is applied across the app using Flutter's theming capabilities. Custom themes are defined for primary, accent, and background colors to ensure a cohesive look and feel.
 
 
@@ -74,30 +74,11 @@ To run this project on your local machine, follow these steps:
     ```
 
 
-###Additional Information
+### Additional Information
 
-Dependencies-
-provider: ^5.0.0
-flutter: ^2.0.0
+#### Dependencies
 
-Folder Structure-
-lib/
-├── main.dart
-├── models/
-│   ├── category.dart
-│   └── meal.dart
-├── screens/
-│   ├── categories_screen.dart
-│   ├── category_meals_screen.dart
-│   ├── filters_screen.dart
-│   ├── meal_detail_screen.dart
-│   └── favorites_screen.dart
-├── widgets/
-│   ├── category_item.dart
-│   ├── meal_item.dart
-│   ├── main_drawer.dart
-│   └── meal_detail.dart
-└── data/
-    ├── dummy_data.dart
-    └── categories.dart
-
+```yaml
+dependencies:
+  provider: ^5.0.0
+  flutter: ^2.0.0
