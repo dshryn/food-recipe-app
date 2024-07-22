@@ -1,4 +1,4 @@
-## Food Recipe App with Flutter🍕🍷
+## Food Recipe App with Flutter🍕🍹
 
 An appealing Flutter application for food enthusiasts. It showcases a variety of Indian dishes and provides detailed recipes, ingredients, and images. Users can also filter recipes based on dietary restrictions and add their favorite recipes to a favorites list. The app features a seamless user experience with a modern UI and incorporates advanced Flutter functionalities.
 
@@ -76,5 +76,10 @@ To run this project on your local machine, follow these steps:
 
 ```yaml
 dependencies:
-  provider: ^5.0.0
-  flutter: ^2.0.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  transparent_image: ^2.0.1
+  flutter_riverpod: ^2.5.1
