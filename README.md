@@ -38,12 +38,17 @@ The app utilizes Provider for state management, ensuring a reactive and maintain
 Named routes are used for navigation within the app, managed by Navigator.pushNamed and Navigator.pop. This approach enhances the scalability of the app by keeping the navigation logic centralized and easy to maintain.
 
 #### Widgets and UI
-Custom Widgets: The app consists of numerous custom widgets to break down the UI into reusable components, such as CategoryItem, MealItem, MealDetail, and MainDrawer.
-SnackBars: SnackBars are implemented for providing feedback to users when they add or remove meals from their favorites list.
-Drawer: A side drawer (MainDrawer) provides access to the filter settings, allowing users to customize their meal preferences.
-Hero widget Animations: The app uses the Hero widget for smooth transitions between the recipe list and detailed view, providing a visually appealing experience.
-Data Handling
-Recipes and categories are defined in model classes and managed through a mock data source. Future improvements could involve integrating a backend service for dynamic content.
+
+**Custom Widgets:** The app consists of numerous custom widgets to break down the UI into reusable components, such as CategoryItem, MealItem, MealDetail, and MainDrawer.
+
+**SnackBars:** SnackBars are implemented for providing feedback to users when they add or remove meals from their favorites list.
+
+**Drawer:** A side drawer (MainDrawer) provides access to the filter settings, allowing users to customize their meal preferences.
+
+**Hero widget Animations:** The app uses the Hero widget for smooth transitions between the recipe list and detailed view, providing a visually appealing experience.
+
+**Data Handling:** Recipes and categories are defined in model classes and managed through a mock data source. Future improvements could involve integrating a backend service for dynamic content.
+
 
 #### Theming
 A consistent dark theme is applied across the app using Flutter's theming capabilities. Custom themes are defined for primary, accent, and background colors to ensure a cohesive look and feel.
