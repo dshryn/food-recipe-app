@@ -1,9 +1,9 @@
-## Food Recipe App with Flutter🍕🍹
+# Food Recipe App with Flutter🍕🍹
 
 An appealing Flutter application for food enthusiasts. It showcases a variety of Indian dishes and provides detailed recipes, ingredients, and images. Users can also filter recipes based on dietary restrictions and add their favorite recipes to a favorites list. The app features a seamless user experience with a modern UI and incorporates advanced Flutter functionalities.
 
 
-### Features
+## Features
 
 - **Category-Based Navigation**: Browse recipes through a visually appealing category grid.
 - **Recipe Details**: View detailed information for each recipe, including images, ingredients, and step-by-step cooking instructions.
@@ -12,32 +12,36 @@ An appealing Flutter application for food enthusiasts. It showcases a variety of
 - **Responsive Design**: Adaptive layout for different screen sizes and orientations.
 
 
-### Screenshots
+## Screenshots
 
 
-### Category Screen
+## Category Screen
+
 ![Category Screen](assets/images/category_details_screen.jpg)
 
-### Meal Info Screen
+## Meal Info Screen
+
 ![Meal Info Screen](assets/images/meal_screen.jpg)
 
-### Side Drawer
+## Side Drawer
+
 ![Side Drawer](assets/images/side_drawer.jpg)
 
-### Filters Screen
+## Filters Screen
+
 ![Filters Screen](assets/images/filters_screen.jpg)
 
 
 
-### Technical Overview
+## Technical Overview
 
-#### State Management
+### State Management
 The app utilizes Provider for state management, ensuring a reactive and maintainable codebase. State changes trigger UI updates efficiently, providing a smooth user experience.
 
-#### Routing
+### Routing
 Named routes are used for navigation within the app, managed by Navigator.pushNamed and Navigator.pop. This approach enhances the scalability of the app by keeping the navigation logic centralized and easy to maintain.
 
-#### Widgets and UI
+### Widgets and UI
 
 **Custom Widgets:** The app consists of numerous custom widgets to break down the UI into reusable components, such as CategoryItem, MealItem, MealDetail, and MainDrawer.
 
@@ -50,18 +54,18 @@ Named routes are used for navigation within the app, managed by Navigator.pushNa
 **Data Handling:** Recipes and categories are defined in model classes and managed through a mock data source. Future improvements could involve integrating a backend service for dynamic content.
 
 
-#### Theming
+### Theming
 A consistent dark theme is applied across the app using Flutter's theming capabilities. Custom themes are defined for primary, accent, and background colors to ensure a cohesive look and feel.
 
 
-### Installation
+## Installation
 
 To run this project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/dshryn/food_recipe_app.git
-    cd food_recipe_app
+    git clone https://github.com/dshryn/food-recipe-app.git
+    cd food-recipe-app
     ```
 
 2. **Install Dependencies**:
@@ -75,9 +79,9 @@ To run this project on your local machine, follow these steps:
     ```
 
 
-### Additional Information
+## Additional Information
 
-#### Dependencies
+### Dependencies
 
 ```yaml
 dependencies:
