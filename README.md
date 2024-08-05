@@ -58,7 +58,12 @@ Named routes are used for navigation within the app, managed by Navigator.pushNa
 A consistent dark theme is applied across the app using Flutter's theming capabilities. Custom themes are defined for primary, accent, and background colors to ensure a cohesive look and feel.
 
 
-## Installation
+## Installation and Setup
+
+### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
+- An editor like [Android Studio](https://developer.android.com/studio) or [Visual Studio Code](https://code.visualstudio.com/).
 
 To run this project on your local machine, follow these steps:
 
