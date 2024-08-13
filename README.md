@@ -58,6 +58,9 @@ Named routes are used for navigation within the app, managed by Navigator.pushNa
 A consistent dark theme is applied across the app using Flutter's theming capabilities. Custom themes are defined for primary, accent, and background colors to ensure a cohesive look and feel.
 
 
+### Future Enhancements
+Implementation of backend to store the complete Favorite Meals list data in user's device memory.
+
 ## Installation and Setup
 
 ### Prerequisites
